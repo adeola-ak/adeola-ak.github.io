@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+/* .navbar-fixed {
+	height: 400px;
+} */
+
+/* span.navbar-toggler-icon {
+	color: white;
+} */
+
+.nav {
+	border-bottom: 1px solid white;
+}
+.brand span {
+	color: goldenrod;
+}
+
+.brand {
+	font-family: "Cabin", sans-serif;
+	font-size: 35px;
+}
+.ml-auto {
+	font-family: "Cabin", sans-serif;
+	font-size: 20px;
+}

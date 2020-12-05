@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+.grid {
+	display: grid;
+	grid-template-columns: (1fr 1fr);
+}
+
+.intro {
+	/* background-color: black; */
+	background-image: url("https://res.cloudinary.com/dusr8fbuo/image/upload/v1607125798/igor-son-FV_PxCqgtwc-unsplash_hgcv2m.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.content-links {
+	grid-column: 2/2;
+	background-color: black;
+	height: 100vh;
+	display: grid;
+}
+
+.greeting {
+	margin-top: 60px;
+
+	font-size: 150px;
+	letter-spacing: -13px;
+	background: -webkit-linear-gradient(rgb(197, 232, 183), rgb(40, 140, 69));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: "Shrikhand", cursive;
+	text-align: center;
+}
+
+.statement {
+	font-family: "Cabin", sans-serif;
+	font-size: 27px;
+	text-align: justify;
+}
+
+.skills-list {
+	font-family: "Cabin", sans-serif;
+	font-size: 22px;
+	text-align: justify;
+}
+
+h3 {
+	margin-top: 60px;
+	font-size: 80px;
+	letter-spacing: -10px;
+	color: white;
+	font-family: "Shrikhand", cursive;
+	text-align: center;
+}
