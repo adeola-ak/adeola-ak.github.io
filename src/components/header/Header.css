@@ -95,3 +95,12 @@
 .icons i {
 	padding: 10px;
 }
+
+.icons a {
+	color: black;
+	text-decoration: none; /* no underline */
+}
+
+.email-btn {
+	display: none;
+}

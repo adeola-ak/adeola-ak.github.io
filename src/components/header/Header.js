@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
+	const [copySuccess, setCopySuccess] = useState("");
+
+	const copyToClipBoard = async (copyMe) => {
+		try {
+			await navigator.clipboard.writeText(copyMe);
+			setCopySuccess("Copied");
+		} catch (err) {
+			setCopySuccess("Failed to Copy");
+		}
+	};
+
 	return (
 		<>
 			<div className="grid">
@@ -40,9 +51,9 @@ const Header = () => {
 					<div className="section">
 						<h3 className="title">Projects</h3>
 						<div className="hover-content">
-							I enjoy building user-centered applications that
-							fulfil a need or tackle solutions to making ones'
-							life easier. Take a look
+							I enjoy building user-centered applications and
+							hyper focusing on great product experiences. Take a
+							look
 							<Link to="/projects">
 								<i>here</i>
 							</Link>{" "}
@@ -61,14 +72,46 @@ const Header = () => {
 						<h3 className="title">Contact</h3>
 						<div className="hover-content">
 							I'd love to hear from you! I'm currently located in
-							the NY area and am currently open to opportunities
-							in NY, NJ, and GA. Add email icon, when email icon
-							is clicked email address is copied to lcipboard.
-							linkedin, and resume icon
+							the NY area and I am open to opportunities in NY,
+							NJ, and GA.
 							<div className="icons">
-								<i class="far fa-envelope fa-2x"></i>
-								<i class="fab fa-linkedin fa-2x"></i>
-								<i class="far fa-file fa-2x"></i>
+								{/* <a href="" target="_blank" rel="noreferrer"> */}
+								{/* <button
+									className="email-btn"
+									onClick={() =>
+										copyToClipBoard("adeola.ak@outlook.com")
+									}
+								> */}
+								<i
+									class="far fa-envelope fa-2x"
+									onClick={() =>
+										copyToClipBoard("adeola.ak@outlook.com")
+									}
+								></i>
+								{/* </button> */}
+								{copySuccess}
+								{/* </a> */}
+								<a
+									href="https://www.linkedin.com/in/adeola-a-b0b6b270"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<i class="fab fa-linkedin fa-2x"></i>
+								</a>
+								<a
+									href="https://docs.google.com/document/d/1jewZzeNjB6tKnvfCHeGO962OB1sVrwz3EkvNOpCKdyY/edit?usp=sharing"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<i class="far fa-file fa-2x"></i>
+								</a>
+								<a
+									href="https://github.com/adeola-ak"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<i class="fab fa-github-square fa-2x"></i>
+								</a>
 							</div>
 						</div>
 					</div>
