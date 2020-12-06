@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
+* {
+	box-sizing: border-box;
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -38,7 +42,10 @@
 	font-size: 27px;
 	text-align: justify;
 	text-align: center;
-	word-wrap: break-word;
+	padding: 0px 20px 20px 20px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: 1px;
 }
 
 .skills-list {
@@ -46,10 +53,11 @@
 	font-size: 22px;
 	text-align: justify;
 	text-align: center;
-	word-wrap: break-word;
-}
-
-.section {
+	color: #fff;
+	padding: 0px 20px 20px 20px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: 3px;
 }
 
 .title {
@@ -65,20 +73,27 @@
 	width: 100%;
 	padding: 0 100px;
 	font-family: "Cabin", sans-serif;
+	font-size: 20px;
+
 	justify-content: center;
 	text-align: center;
 	transition: 0.9s ease;
 	opacity: 0;
 }
 
+.section {
+	transition: 0.1s;
+	-webkit-tap-highlight-color: transparent;
+}
 .section:hover {
-	/* opacity: 1; */
-	background-color: rgba(125, 134, 117, 0.1);
-	border: 2px solid black;
+	/* background-color: rgba(125, 134, 117, 0.1); */
+	background-color: rgb(244, 240, 238);
+	border: 3px solid black;
+	border-style: double;
 }
 
 .section:hover .title {
-	text-decoration: underline;
+	transition: all 0.5s;
 	background: -webkit-linear-gradient(rgb(98, 87, 85), rgb(244, 202, 145));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -94,6 +109,12 @@
 
 .icons i {
 	padding: 10px;
+	transition: all 0.2s ease-in-out;
+}
+
+.icons i:hover {
+	transform: scale(1.3);
+	transform: rotateY(180deg);
 }
 
 .icons a {

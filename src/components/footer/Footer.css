@@ -1,0 +1,20 @@
+.footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: ivory;
+	background-color: black;
+	height: 44px;
+	text-align: center;
+}
+
+/* body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1 0 auto;
+} */

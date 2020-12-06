@@ -1,16 +1,20 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./components/header/Header";
-import Navibar from "./components/navibar/Navibar";
+import Main from "./components/main/Main";
+import Projects from "./pages/projects/Projects";
 
 function App() {
 	return (
-		<>
-			{/* <Navibar /> */}
-			<div>
-				<Header />
-			</div>
-		</>
+		<Switch>
+			<Route exact path="/">
+				<Main />
+			</Route>
+
+			<Route exact path="/projects">
+				<Projects />
+			</Route>
+		</Switch>
 	);
 }
 

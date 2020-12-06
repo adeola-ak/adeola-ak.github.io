@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Header.css";
+import "./Main.css";
 
-const Header = () => {
+const Main = () => {
 	const [copySuccess, setCopySuccess] = useState("");
 
 	const copyToClipBoard = async (copyMe) => {
 		try {
 			await navigator.clipboard.writeText(copyMe);
-			setCopySuccess("Copied");
+			setCopySuccess(alert("Copied"));
 		} catch (err) {
-			setCopySuccess("Failed to Copy");
+			setCopySuccess(alert("Failed to Copy"));
 		}
 	};
 
@@ -26,7 +26,7 @@ const Header = () => {
 						beautiful, unique, and intuitive designs.
 					</p>
 					<p className="skills-list">
-						Skillful Areas:<br></br>
+						skillful areas:<br></br>
 						javascript ruby css react express mongoDB ruby on rails
 						postgresql
 					</p>
@@ -121,4 +121,4 @@ const Header = () => {
 	);
 };
 
-export default Header;
+export default Main;

@@ -31,28 +31,7 @@ const Navibar = () => {
 						</Nav.Link>
 						<Nav.Link
 							as={Link}
-							to="/browse"
-							style={{ color: "black", fontWeight: "300" }}
-						>
-							About
-						</Nav.Link>
-						<Nav.Link
-							as={Link}
-							to="/favorites"
-							style={{ color: "black", fontWeight: "300" }}
-						>
-							Projects
-						</Nav.Link>
-						<Nav.Link
-							as={Link}
-							to="/search"
-							style={{ color: "black", fontWeight: "300" }}
-						>
-							Blog
-						</Nav.Link>
-						<Nav.Link
-							as={Link}
-							to="/about"
+							to="/home/#contact"
 							style={{ color: "black", fontWeight: "300" }}
 						>
 							Contact
