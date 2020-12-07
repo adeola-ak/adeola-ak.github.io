@@ -10,7 +10,7 @@ body {
 	text-align: center;
 	font-size: 85px;
 	letter-spacing: -7px;
-	margin-top: 40px;
+	margin-top: 2%;
 	background: -webkit-linear-gradient(rgb(197, 232, 183), rgb(66, 52, 62));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -18,10 +18,10 @@ body {
 	border-right: 0.15em solid orange; /* The typwriter cursor */
 	white-space: nowrap; /* Keeps the content on a single line */
 	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	animation: typing 7s steps(30, end), blink-caret 0.25s step-end infinite;
+	animation: typing 7s steps(30, end), blink-caret 2s step-end infinite;
 }
 .proj-container {
-	margin-top: 180px;
+	margin-top: 7%;
 	position: absolute;
 	top: 10%;
 	left: 40%;

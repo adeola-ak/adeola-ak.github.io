@@ -36,7 +36,7 @@ const Main = () => {
 				<div className="content-links">
 					<div className="section">
 						<h3 className="title">about</h3>
-						<div className="hover-content">
+						<div className="hover-content" id="about">
 							I'm an avid learner who loves being able to be
 							creative and think outside of the box. When it comes
 							to coding, it is important that my code is clean,
@@ -45,8 +45,8 @@ const Main = () => {
 							I'm a little bit of a product junkie. I am also
 							intrigued by art and all aspects of design.
 							Additionally, I love to travel, try new foods,
-							workout, and stay on top of what's going on in the
-							world.
+							workout, and stay current with what is going on in
+							the world.
 						</div>
 					</div>
 					<div className="section">

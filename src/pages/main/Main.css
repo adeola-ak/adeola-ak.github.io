@@ -61,8 +61,8 @@
 }
 
 .title {
-	margin-top: 90px;
-	font-size: 70px;
+	margin-top: 60px;
+	font-size: 65px;
 	letter-spacing: -6px;
 	color: rgb(98, 87, 85);
 	font-family: "Shrikhand", cursive;
@@ -73,14 +73,16 @@
 	width: 100%;
 	padding: 0 100px;
 	font-family: "Cabin", sans-serif;
-	font-size: 20px;
-
+	font-size: 18px;
 	justify-content: center;
 	text-align: center;
 	transition: 0.9s ease;
 	opacity: 0;
 }
 
+#about {
+	font-size: 16px;
+}
 .section {
 	transition: 0.1s;
 	-webkit-tap-highlight-color: transparent;
@@ -108,8 +110,11 @@
 }
 
 .social-icons i {
-	padding: 10px;
+	/* padding: 10px; */
+	padding-left: 10px;
+	padding-right: 10px;
 	transition: all 0.2s ease-in-out;
+	margin-top: 10px;
 }
 
 .social-icons i:hover {

@@ -9,7 +9,7 @@ const Navibar = () => {
 		<div className="navbar-fixed">
 			<Navbar expand="lg" className="nav">
 				<Navbar.Brand
-					href="/portfolio"
+					href="/"
 					className="brand"
 					style={{ color: "black" }}
 				>
@@ -27,7 +27,7 @@ const Navibar = () => {
 					<Nav className="ml-auto">
 						<Nav.Link
 							as={Link}
-							to="/portfolio"
+							to="/"
 							className="nav-link"
 							// style={{ color: "black", fontWeight: "300" }}
 						>
@@ -35,7 +35,7 @@ const Navibar = () => {
 						</Nav.Link>
 						<Nav.Link
 							as={Link}
-							to="/portfolio/#contact"
+							to="/#contact"
 							className="nav-link"
 
 							// style={{ color: "black", fontWeight: "300" }}
