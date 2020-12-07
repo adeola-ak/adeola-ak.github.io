@@ -1,12 +1,12 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Main from "./components/main/Main";
 import Projects from "./pages/projects/Projects";
 
 function App() {
 	return (
-		<Switch>
+		<BrowserRouter basename={window.location.pathname || ""}>
 			<Route exact path="/">
 				<Main />
 			</Route>
@@ -14,7 +14,7 @@ function App() {
 			<Route exact path="/projects">
 				<Projects />
 			</Route>
-		</Switch>
+		</BrowserRouter>
 	);
 }
 
