@@ -79,7 +79,9 @@ const Main = () => {
 					</div> */}
 
 					<div className="section">
-						<h3 className="title">contact</h3>
+						<h3 className="title" id="contact">
+							contact
+						</h3>
 						<div className="hover-content">
 							I'd love to hear from you! I'm currently located in
 							the NY Metropolitan and I am open to opportunities
