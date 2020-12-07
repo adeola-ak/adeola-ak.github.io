@@ -38,13 +38,22 @@ const Projects = () => {
 						/>
 					</div>
 					<div className="proj-info" id={`s${index}`}>
-						<h4 className="proj-titl">{project.title}</h4>
+						<h4 className="proj-titl">
+							<b>{project.title}</b>
+						</h4>
+
 						<p className="proj-desc">{project.description}</p>
 						<div className="proj-btns">
-							<button onClick={handleLiveClick}>live</button>
-							<button onClick={handleRepoClick}>
-								repository
-							</button>
+							<i
+								class="fas fa-external-link-alt fa-2x"
+								id="live"
+								onClick={handleLiveClick}
+							></i>
+							<i
+								class="fab fa-github-square fa-2x"
+								id="repo"
+								onClick={handleRepoClick}
+							></i>
 						</div>
 					</div>
 				</div>
@@ -55,7 +64,9 @@ const Projects = () => {
 	return (
 		<Fragment>
 			<Navibar />
-
+			<div>
+				<h1 className="page-title">recent projects</h1>
+			</div>
 			<div className="proj-container">{project}</div>
 			<Footer />
 		</Fragment>

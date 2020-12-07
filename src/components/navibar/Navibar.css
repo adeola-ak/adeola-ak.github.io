@@ -1,25 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
-/* .navbar-fixed {
-	height: 400px;
-} */
-
-/* span.navbar-toggler-icon {
-	color: white;
-} */
-
-.nav {
-	/* border-bottom: 1px solid white; */
-}
-.brand span {
-	color: goldenrod;
-}
-
 .brand {
 	font-family: "Cabin", sans-serif;
 	font-size: 35px;
+	background: -webkit-linear-gradient(rgb(98, 87, 85), rgb(244, 202, 145));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .ml-auto {
 	font-family: "Cabin", sans-serif;
 	font-size: 20px;
+	color: black;
+	/* background: -webkit-linear-gradient(rgb(98, 87, 85), rgb(244, 202, 145));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+}
+
+.nav-link {
+	letter-spacing: -2px;
+}
+.nav-link:hover {
+	text-decoration: underline;
 }

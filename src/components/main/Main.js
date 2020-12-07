@@ -25,16 +25,17 @@ const Main = () => {
 						enjoys turning complex problems into <br></br>
 						beautiful, unique, and intuitive designs.
 					</p>
+
 					<p className="skills-list">
-						skillful areas:<br></br>
-						javascript ruby css react express mongoDB ruby on rails
-						postgresql
+						<b>SKILLFUL AREAS:</b>
+						<br></br>
+						Javascript, Ruby, CSS, React, Express, mongoDB, Rails,
+						postgreSQL
 					</p>
 				</div>
-
 				<div className="content-links">
 					<div className="section">
-						<h3 className="title">About</h3>
+						<h3 className="title">about</h3>
 						<div className="hover-content">
 							I'm an avid learner who loves being able to be
 							creative and think outside of the box. When it comes
@@ -49,14 +50,23 @@ const Main = () => {
 						</div>
 					</div>
 					<div className="section">
-						<h3 className="title">Projects</h3>
+						<h3 className="title">projects</h3>
 						<div className="hover-content">
 							I enjoy building user-centered applications and
 							hyper focusing on great product experiences. Take a
 							look
-							<Link to="/projects">
-								<i>here</i>
-							</Link>{" "}
+							<Link
+								to="/projects"
+								style={{
+									color: "rgb(251, 207, 156)",
+									fontWeight: "bold",
+								}}
+							>
+								<span id="here-link">
+									{" "}
+									<i> here </i>
+								</span>
+							</Link>
 							at how I use technologies like React and
 							Express/Ruby on Rails to create applications that
 							I'm passionate about.
@@ -69,12 +79,12 @@ const Main = () => {
 					</div> */}
 
 					<div className="section">
-						<h3 className="title">Contact</h3>
+						<h3 className="title">contact</h3>
 						<div className="hover-content">
 							I'd love to hear from you! I'm currently located in
-							the NY area and I am open to opportunities in NY,
-							NJ, and GA.
-							<div className="icons">
+							the NY Metropolitan and I am open to opportunities
+							in NY, NJ, and GA.
+							<div className="social-icons">
 								{/* <a href="" target="_blank" rel="noreferrer"> */}
 								{/* <button
 									className="email-btn"

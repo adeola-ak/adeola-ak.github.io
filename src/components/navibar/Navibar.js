@@ -19,20 +19,26 @@ const Navibar = () => {
 					></img> */}
 					AA
 				</Navbar.Brand>
-				<Navbar.Toggle aria-controls="basic-navbar-nav" />
+				<Navbar.Toggle
+					aria-controls="basic-navbar-nav"
+					style={{ backgroundColor: "white" }}
+				/>
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto">
 						<Nav.Link
 							as={Link}
 							to="/"
-							style={{ color: "black", fontWeight: "300" }}
+							className="nav-link"
+							// style={{ color: "black", fontWeight: "300" }}
 						>
 							Home
 						</Nav.Link>
 						<Nav.Link
 							as={Link}
 							to="/home/#contact"
-							style={{ color: "black", fontWeight: "300" }}
+							className="nav-link"
+
+							// style={{ color: "black", fontWeight: "300" }}
 						>
 							Contact
 						</Nav.Link>

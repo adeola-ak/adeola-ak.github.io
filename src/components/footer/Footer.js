@@ -5,15 +5,7 @@ const Footer = () => {
 	return (
 		<>
 			<footer className="footer">
-				<div>
-					{/* stack links on top of each other */}
-					{/* <p>Connect</p>
-					<li>link 1</li>
-					<li>link 2</li>
-
-					<li>link 3</li> */}
-				</div>
-				<div>© 2020 Adeola Akinsiku</div>
+				<p> Adeola Akinsiku © 2020</p>
 			</footer>
 		</>
 	);

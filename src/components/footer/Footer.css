@@ -3,10 +3,12 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	color: ivory;
-	background-color: black;
+	color: black;
+	background-color: transparent;
 	height: 44px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
 }
 
 /* body {
