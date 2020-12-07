@@ -8,7 +8,7 @@ const Main = () => {
 	const copyToClipBoard = async (copyMe) => {
 		try {
 			await navigator.clipboard.writeText(copyMe);
-			setCopySuccess(alert("Copied"));
+			setCopySuccess(alert("Email Copied"));
 		} catch (err) {
 			setCopySuccess(alert("Failed to Copy"));
 		}
