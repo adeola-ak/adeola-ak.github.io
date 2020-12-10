@@ -86,7 +86,7 @@ img {
 
 .proj-info {
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 0%;
 	height: 55%;
 	width: 100%;
@@ -108,7 +108,7 @@ img {
 	font-size: 14px;
 	/* color: #fff; */
 	color: black;
-	padding: 20px;
+	padding: 10px;
 	line-height: 150%;
 	text-align: center;
 	letter-spacing: 1px;

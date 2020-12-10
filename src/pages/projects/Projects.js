@@ -43,6 +43,10 @@ const Projects = () => {
 						</h4>
 
 						<p className="proj-desc">{project.description}</p>
+						<p className="proj-desc">
+							skills excercised: {project.built_with}
+						</p>
+
 						<div className="proj-btns">
 							<i
 								class="fas fa-external-link-alt fa-2x"

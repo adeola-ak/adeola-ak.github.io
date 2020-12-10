@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Main.css";
+import Navibar from "../../components/navibar/Navibar";
 
 const Main = () => {
 	const [copySuccess, setCopySuccess] = useState("");
@@ -16,6 +17,7 @@ const Main = () => {
 
 	return (
 		<>
+			<Navibar />
 			<div className="grid">
 				<div className="intro">
 					<h1 className="greeting">Hello.</h1>
@@ -23,7 +25,7 @@ const Main = () => {
 					<p className="statement">
 						I'm Adeola Akinsiku! A curious pioneer who <br></br>
 						enjoys turning complex problems into <br></br>
-						beautiful, unique, and intuitive designs.
+						beautiful, unique, and intuitive software.
 					</p>
 
 					<p className="skills-list">
@@ -37,6 +39,15 @@ const Main = () => {
 					<div className="section">
 						<h3 className="title">about</h3>
 						<div className="hover-content" id="about">
+							<div className="mobile-img">
+								<img
+									src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607567617/Screen_Shot_2020-12-09_at_9.25.22_PM_uvzufz.png"
+									style={{
+										height: "10em",
+										filter: "grayscale(1)",
+									}}
+								/>
+							</div>
 							I'm an avid learner who loves being able to be
 							creative and think outside of the box. When it comes
 							to coding, it is important that my code is clean,
@@ -52,6 +63,15 @@ const Main = () => {
 					<div className="section">
 						<h3 className="title">projects</h3>
 						<div className="hover-content">
+							<div className="mobile-img">
+								<img
+									src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607299788/kevin-bhagat-zNRITe8NPqY-unsplash_a3q93n.jpg"
+									style={{
+										height: "10em",
+										filter: "grayscale(1)",
+									}}
+								/>
+							</div>
 							I enjoy building user-centered applications and
 							hyper focusing on great product experiences. Take a
 							look
@@ -83,9 +103,19 @@ const Main = () => {
 							contact
 						</h3>
 						<div className="hover-content">
+							<div className="mobile-img">
+								<img
+									src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607299767/solen-feyissa-LBNJi8qHIbA-unsplash_hbyq2x.jpg"
+									style={{
+										height: "10em",
+										filter: "grayscale(1)",
+									}}
+								/>
+							</div>
 							I'd love to hear from you! I'm currently located in
-							the NY Metropolitan and I am open to opportunities
-							in NY, NJ, and GA.
+							the NY Metropolitan area and I am open to
+							opportunities in NY, NJ, and GA. Linked below are my
+							email, linkedIn, resume and github.
 							<div className="social-icons">
 								{/* <a href="" target="_blank" rel="noreferrer"> */}
 								{/* <button
