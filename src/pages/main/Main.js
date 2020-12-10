@@ -12,7 +12,9 @@ const Main = () => {
 			await navigator.clipboard.writeText(copyMe);
 			setCopySuccess(alert("Email Copied"));
 		} catch (err) {
-			setCopySuccess(alert("Failed to Copy"));
+			setCopySuccess(
+				alert("Failed to Autocopy Email Address: adeola.ak@outlook.com")
+			);
 		}
 	};
 
@@ -50,19 +52,21 @@ const Main = () => {
 									}}
 								/>
 								<div className="mobile-txt-container">
-									ABOUT
+									ABOUT &nbsp;
 								</div>
 							</div>
-							I'm an avid learner who loves being able to be
-							creative and think outside of the box. When it comes
-							to coding, it is important that my code is clean,
-							reusable, and adheres to convention, resulting in a
-							flawless experience for the user. Outside of coding,
-							I'm a little bit of a product junkie. I am also
-							intrigued by art and all aspects of design.
-							Additionally, I love to travel, try new foods,
-							workout, and stay current with what is going on in
-							the world.
+							<p className="section-text">
+								I'm an avid learner who loves being able to be
+								creative and think outside of the box. When it
+								comes to coding, it is important that my code is
+								clean, reusable, and adheres to convention,
+								resulting in a flawless experience for the user.
+								Outside of coding, I'm a little bit of a product
+								junkie. I am also intrigued by art and all
+								aspects of design. Additionally, I love to
+								travel, try new foods, workout, and stay current
+								with what is going on in the world.
+							</p>
 						</div>
 					</div>
 					<div className="section">
@@ -78,27 +82,30 @@ const Main = () => {
 									}}
 								/>
 								<div className="mobile-txt-container">
-									PROJECTS
+									PROJECTS &nbsp;
 								</div>
 							</div>
-							I enjoy building user-centered applications and
-							hyper focusing on great product experiences. Take a
-							look
-							<Link
-								to="/projects"
-								style={{
-									color: "rgb(251, 207, 156)",
-									fontWeight: "bold",
-								}}
-							>
-								<span id="here-link">
-									{" "}
-									<i> here </i>
-								</span>
-							</Link>
-							at how I use technologies like React and
-							Express/Ruby on Rails to create applications that
-							I'm passionate about.
+							<p className="section-text">
+								{" "}
+								I enjoy building user-centered applications and
+								hyper focusing on great product experiences.
+								Take a look
+								<Link
+									to="/projects"
+									style={{
+										color: "rgb(251, 207, 156)",
+										fontWeight: "bold",
+									}}
+								>
+									<span id="here-link">
+										{" "}
+										<i> here </i>
+									</span>
+								</Link>
+								at how I use technologies like React and
+								Express/Ruby on Rails to create applications
+								that I'm passionate about.
+							</p>
 						</div>
 					</div>
 
@@ -123,13 +130,16 @@ const Main = () => {
 									}}
 								/>
 								<div className="mobile-txt-container">
-									CONTACT
+									CONTACT &nbsp;
 								</div>
 							</div>
-							I'd love to hear from you! I'm currently located in
-							the NY Metropolitan area and I am open to
-							opportunities in NY, NJ, and GA. Linked below are my
-							email, linkedIn, resume and github.
+							<p className="section-text">
+								I'd love to hear from you! I'm currently located
+								in the NY Metropolitan area and I am open to
+								opportunities in NY, NJ, and GA. Linked below
+								are my email address, resume, linkedin, and
+								github profiles.
+							</p>
 							<div className="social-icons">
 								{/* <a href="" target="_blank" rel="noreferrer"> */}
 								{/* <button
@@ -148,18 +158,18 @@ const Main = () => {
 								{copySuccess}
 								{/* </a> */}
 								<a
-									href="https://www.linkedin.com/in/adeola-a-b0b6b270"
-									target="_blank"
-									rel="noreferrer"
-								>
-									<i class="fab fa-linkedin fa-2x"></i>
-								</a>
-								<a
 									href="https://docs.google.com/document/d/1jewZzeNjB6tKnvfCHeGO962OB1sVrwz3EkvNOpCKdyY/edit?usp=sharing"
 									target="_blank"
 									rel="noreferrer"
 								>
 									<i class="far fa-file fa-2x"></i>
+								</a>
+								<a
+									href="https://www.linkedin.com/in/adeola-a-b0b6b270"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<i class="fab fa-linkedin fa-2x"></i>
 								</a>
 								<a
 									href="https://github.com/adeola-ak"

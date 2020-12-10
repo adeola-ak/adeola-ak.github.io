@@ -211,3 +211,61 @@ img {
 #s2 {
 	background: linear-gradient(to top, #5b62a2 0%, #7b88d1 120%);
 } */
+
+@media screen and (max-width: 475px) {
+	* {
+		position: unset;
+	}
+	.page-title {
+		margin-top: 60px;
+		font-size: 56px;
+		letter-spacing: -5px;
+		background: -webkit-linear-gradient(
+			rgb(197, 232, 183),
+			rgb(66, 52, 62)
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-align: center;
+		animation: none;
+		border-right: none;
+	}
+
+	.proj-container {
+		display: flex;
+		position: unset;
+		top: auto;
+		left: auto;
+		top: 0%;
+		left: 0%;
+		perspective: none;
+	}
+
+	.proj-card {
+		display: flex;
+		animation: none;
+		transform: none;
+		transition: none;
+		width: 100vw;
+		position: unset;
+		perspective: unset;
+		all: unset;
+	}
+
+	.image {
+		position: unset;
+	}
+
+	.proj-info {
+		position: absolute;
+		top: 45%;
+		left: 0%;
+		height: 55%;
+		width: 100%;
+		/* background: linear-gradient(to bottom, #eba65b 0%, #d99267 40%); */
+		z-index: 30;
+		color: black;
+		font-family: "Cabin", sans-serif;
+		size: 35px;
+	}
+}

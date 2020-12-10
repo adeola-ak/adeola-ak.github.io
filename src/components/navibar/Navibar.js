@@ -7,7 +7,7 @@ import "./Navibar.css";
 const Navibar = () => {
 	return (
 		<div className="navbar-fixed">
-			<Navbar expand="lg" className="nav">
+			<Navbar expand="lg" className="nav" id="mobile-nav">
 				<Navbar.Brand
 					href="/"
 					className="brand"
