@@ -5,6 +5,10 @@ body {
 	background-color: rgb(240, 239, 219);
 }
 
+.navbar-fixed {
+	display: block;
+}
+
 .page-title {
 	font-family: "Shrikhand", cursive;
 	text-align: center;

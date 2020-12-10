@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Main.css";
 import Navibar from "../../components/navibar/Navibar";
+import Footer from "../../components/footer/Footer";
 
 const Main = () => {
 	const [copySuccess, setCopySuccess] = useState("");
@@ -44,9 +45,13 @@ const Main = () => {
 									src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607567617/Screen_Shot_2020-12-09_at_9.25.22_PM_uvzufz.png"
 									style={{
 										height: "10em",
-										filter: "grayscale(1)",
+										opacity: ".5",
+										filter: "blur(2px) sepia(.6)",
 									}}
 								/>
+								<div className="mobile-txt-container">
+									ABOUT
+								</div>
 							</div>
 							I'm an avid learner who loves being able to be
 							creative and think outside of the box. When it comes
@@ -68,9 +73,13 @@ const Main = () => {
 									src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607299788/kevin-bhagat-zNRITe8NPqY-unsplash_a3q93n.jpg"
 									style={{
 										height: "10em",
-										filter: "grayscale(1)",
+										opacity: ".5",
+										filter: "blur(2px) sepia(.6)",
 									}}
 								/>
+								<div className="mobile-txt-container">
+									PROJECTS
+								</div>
 							</div>
 							I enjoy building user-centered applications and
 							hyper focusing on great product experiences. Take a
@@ -108,9 +117,14 @@ const Main = () => {
 									src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607299767/solen-feyissa-LBNJi8qHIbA-unsplash_hbyq2x.jpg"
 									style={{
 										height: "10em",
-										filter: "grayscale(1)",
+										mixBlendMode: "multiply",
+										opacity: ".5",
+										filter: "blur(2px) sepia(1)",
 									}}
 								/>
+								<div className="mobile-txt-container">
+									CONTACT
+								</div>
 							</div>
 							I'd love to hear from you! I'm currently located in
 							the NY Metropolitan area and I am open to
@@ -159,6 +173,7 @@ const Main = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 };
