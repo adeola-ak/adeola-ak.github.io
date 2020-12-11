@@ -61,7 +61,7 @@
 }
 
 .title {
-	margin-top: 60px;
+	margin-top: 40px;
 	font-size: 65px;
 	letter-spacing: -6px;
 	color: rgb(98, 87, 85);
@@ -136,11 +136,49 @@
 }
 
 .footer {
-	display: none !important;
+	/* display: none !important; */
 }
 
 .mobile-text {
 	display: none;
+}
+
+@media screen and (max-width: 800px) and (min-width: 450px) {
+	.intro {
+		height: 130vh;
+		width: 100%;
+	}
+
+	.content-links {
+		height: 130vh;
+		width: 100%;
+	}
+
+	.navbar-fixed {
+		background-color: white;
+		display: block !important;
+		visibility: visible;
+	}
+
+	.greeting {
+		margin-top: 60px;
+		font-size: 100px;
+		letter-spacing: -8px;
+	}
+
+	.skills-list {
+		margin-top: 100px;
+	}
+
+	.hover-content {
+		width: 100%;
+		padding: 0 70px;
+		font-family: "Cabin", sans-serif;
+		font-size: 18px;
+		justify-content: center;
+		text-align: right;
+		opacity: 0;
+	}
 }
 
 @media screen and (max-width: 475px) {
@@ -254,13 +292,19 @@
 		margin-top: 25%;
 	}
 
-	.footer {
-		/* position: unset; */
-		/* right: unset;
-		bottom: unset;
-		left: unset; */
+	#mobile-footer-display {
+		display: none;
+		visibility: hidden;
+		position: initial;
 	}
 }
+/* @media only screen and (max-width: 600px) and (min-width: 400px)  {...} */
 
 @media screen and (max-width: 768px) {
+	#display-nav-mobile {
+		display: block !important;
+	}
+	.test {
+		display: block;
+	}
 }

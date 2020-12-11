@@ -20,7 +20,13 @@ const Main = () => {
 
 	return (
 		<>
-			<Navibar />
+			<div
+				className="test"
+				id="display-nav-mobile"
+				style={{ display: "none" }}
+			>
+				<Navibar />
+			</div>
 			<div className="grid">
 				<div className="intro">
 					<h1 className="greeting">Hello.</h1>
@@ -71,42 +77,47 @@ const Main = () => {
 					</div>
 					<div className="section">
 						<h3 className="title">projects</h3>
-						<div className="hover-content">
-							<div className="mobile-img">
-								<img
-									src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607299788/kevin-bhagat-zNRITe8NPqY-unsplash_a3q93n.jpg"
-									style={{
-										height: "10em",
-										opacity: ".5",
-										filter: "blur(2px) sepia(.6)",
-									}}
-								/>
-								<div className="mobile-txt-container">
-									PROJECTS &nbsp;
+						<Link
+							to="/projects"
+							style={{ color: "black", textDecoration: "none" }}
+						>
+							<div className="hover-content">
+								<div className="mobile-img">
+									<img
+										src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607299788/kevin-bhagat-zNRITe8NPqY-unsplash_a3q93n.jpg"
+										style={{
+											height: "10em",
+											opacity: ".5",
+											filter: "blur(2px) sepia(.6)",
+										}}
+									/>
+									<div className="mobile-txt-container">
+										PROJECTS &nbsp;
+									</div>
 								</div>
+								<p className="section-text">
+									{" "}
+									I enjoy building user-centered applications
+									and hyper focusing on great product
+									experiences. Take a look
+									<Link
+										to="/projects"
+										style={{
+											color: "rgb(251, 207, 156)",
+											fontWeight: "bold",
+										}}
+									>
+										<span id="here-link">
+											{" "}
+											<i> here </i>
+										</span>
+									</Link>
+									at how I use technologies like React and
+									Express/Ruby on Rails to create applications
+									that I'm passionate about.
+								</p>
 							</div>
-							<p className="section-text">
-								{" "}
-								I enjoy building user-centered applications and
-								hyper focusing on great product experiences.
-								Take a look
-								<Link
-									to="/projects"
-									style={{
-										color: "rgb(251, 207, 156)",
-										fontWeight: "bold",
-									}}
-								>
-									<span id="here-link">
-										{" "}
-										<i> here </i>
-									</span>
-								</Link>
-								at how I use technologies like React and
-								Express/Ruby on Rails to create applications
-								that I'm passionate about.
-							</p>
-						</div>
+						</Link>
 					</div>
 
 					{/* <div className="section">
@@ -183,7 +194,14 @@ const Main = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			<div
+				className="test"
+				id="display-nav-mobile"
+				style={{ display: "none" }}
+			>
+				<Footer />
+			</div>
+			{/* <Footer /> */}
 		</>
 	);
 };

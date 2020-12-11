@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
 	return (
 		<>
-			<footer className="footer">
+			<footer className="footer" id="mobile-footer-display">
 				<p> Adeola Akinsiku © 2020</p>
 			</footer>
 		</>
