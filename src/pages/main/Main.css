@@ -130,12 +130,13 @@
 	text-decoration: none; /* no underline */
 }
 
-.email-btn {
-	display: none;
+.navbar-fixed {
+	display: none !important;
+	/* display: none; */
 }
 
 .footer {
-	display: none;
+	display: none !important;
 }
 
 .mobile-text {
@@ -143,6 +144,11 @@
 }
 
 @media screen and (max-width: 475px) {
+	.navbar-fixed {
+		display: block !important;
+		visibility: visible;
+	}
+
 	div .grid {
 		display: flex;
 		flex-direction: column;
@@ -249,10 +255,10 @@
 	}
 
 	.footer {
-		position: static;
-		right: unset;
+		/* position: unset; */
+		/* right: unset;
 		bottom: unset;
-		left: unset;
+		left: unset; */
 	}
 }
 
