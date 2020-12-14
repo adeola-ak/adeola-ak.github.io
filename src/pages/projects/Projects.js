@@ -9,7 +9,7 @@ const Projects = () => {
 	useEffect(() => {
 		Tabletop.init({
 			// key: "15hl-b3NdtdyqyUn-P5kG1xgbm-2yHpubX_m1A0fR9fE",
-			key: "5hl-b3NdtdyqyUn-P5kG1xgbm-2yHpubX_m1A0fR9fE",
+			key: "15hl-b3NdtdyqyUn-P5kG1xgbm-2yHpubX_m1A0fR9fE",
 			simpleSheet: true,
 		})
 			.then((data) => setProjects(data))
