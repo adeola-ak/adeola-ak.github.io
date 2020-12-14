@@ -31,6 +31,10 @@ div .page-title {
 	height: 55vh;
 }
 
+.proj-card:hover {
+	transition: none;
+}
+
 .proj-info {
 	color: black;
 	font-family: "Cabin", sans-serif;
