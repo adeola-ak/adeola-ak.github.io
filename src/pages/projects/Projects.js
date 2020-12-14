@@ -1,6 +1,5 @@
 import React, { useState, useEffect, Fragment } from "react";
 import Navibar from "../../components/navibar/Navibar";
-import Footer from "../../components/footer/Footer";
 import Tabletop from "tabletop";
 import "./Projects.css";
 
@@ -9,7 +8,8 @@ const Projects = () => {
 
 	useEffect(() => {
 		Tabletop.init({
-			key: "15hl-b3NdtdyqyUn-P5kG1xgbm-2yHpubX_m1A0fR9fE",
+			// key: "15hl-b3NdtdyqyUn-P5kG1xgbm-2yHpubX_m1A0fR9fE",
+			key: "5hl-b3NdtdyqyUn-P5kG1xgbm-2yHpubX_m1A0fR9fE",
 			simpleSheet: true,
 		})
 			.then((data) => setProjects(data))
@@ -34,7 +34,7 @@ const Projects = () => {
 						<img
 							src={project.image}
 							alt={project.title}
-							style={{ height: "8em" }}
+							style={{ height: "12em" }}
 						/>
 					</div>
 					<div className="proj-info" id={`s${index}`}>
@@ -72,7 +72,6 @@ const Projects = () => {
 				<h1 className="page-title">recent projects</h1>
 			</div>
 			<div className="proj-container">{project}</div>
-			<Footer />
 		</Fragment>
 	);
 };

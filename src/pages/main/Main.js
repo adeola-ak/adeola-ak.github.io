@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Main.css";
 import Navibar from "../../components/navibar/Navibar";
-import Footer from "../../components/footer/Footer";
 
 const Main = () => {
 	const [copySuccess, setCopySuccess] = useState("");
@@ -73,6 +72,7 @@ const Main = () => {
 								travel, try new foods, workout, and stay current
 								with what is going on in the world.
 							</p>
+							<hr></hr>
 						</div>
 					</div>
 					<div className="section">
@@ -116,15 +116,10 @@ const Main = () => {
 									Express/Ruby on Rails to create applications
 									that I'm passionate about.
 								</p>
+								<hr></hr>
 							</div>
 						</Link>
 					</div>
-
-					{/* <div className="section">
-						<h3 className="title">Education</h3>
-						<div className="hover-content">GA, MSU</div>
-					</div> */}
-
 					<div className="section">
 						<h3 className="title" id="contact">
 							contact
@@ -190,18 +185,11 @@ const Main = () => {
 									<i class="fab fa-github-square fa-2x"></i>
 								</a>
 							</div>
+							<hr></hr>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div
-				className="test"
-				id="display-nav-mobile"
-				style={{ display: "none" }}
-			>
-				<Footer />
-			</div>
-			{/* <Footer /> */}
 		</>
 	);
 };
