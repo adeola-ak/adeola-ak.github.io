@@ -30,7 +30,11 @@ const Projects = () => {
 		return (
 			<>
 				<div className="proj-card" id={`c${index}`} key={index}>
-					<div className="image" id={`i${index}`}>
+					<div
+						className="image"
+						id={`i${index}`}
+						style={{ marginTop: "-25px" }}
+					>
 						<img
 							src={project.image}
 							alt={project.title}
