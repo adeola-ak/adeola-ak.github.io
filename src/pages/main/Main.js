@@ -50,6 +50,7 @@ const Main = () => {
 							<div className="mobile-img">
 								<img
 									src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607567617/Screen_Shot_2020-12-09_at_9.25.22_PM_uvzufz.png"
+									alt={"about"}
 									style={{
 										height: "10em",
 										opacity: ".5",
@@ -85,6 +86,7 @@ const Main = () => {
 								<div className="mobile-img">
 									<img
 										src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607299788/kevin-bhagat-zNRITe8NPqY-unsplash_a3q93n.jpg"
+										alt={"projects"}
 										style={{
 											height: "10em",
 											opacity: ".5",
@@ -128,6 +130,7 @@ const Main = () => {
 							<div className="mobile-img">
 								<img
 									src="https://res.cloudinary.com/dusr8fbuo/image/upload/v1607299767/solen-feyissa-LBNJi8qHIbA-unsplash_hbyq2x.jpg"
+									alt={"contact"}
 									style={{
 										height: "10em",
 										mixBlendMode: "multiply",
@@ -164,9 +167,10 @@ const Main = () => {
 								{copySuccess}
 								{/* </a> */}
 								<a
-									href="https://docs.google.com/document/d/1jewZzeNjB6tKnvfCHeGO962OB1sVrwz3EkvNOpCKdyY/edit?usp=sharing"
+									href="https://docs.google.com/document/d/1jewZzeNjB6tKnvfCHeGO962OB1sVrwz3EkvNOpCKdyY/export?format=pdf"
 									target="_blank"
 									rel="noreferrer"
+									download
 								>
 									<i class="far fa-file fa-2x"></i>
 								</a>
