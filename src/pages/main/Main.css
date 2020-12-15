@@ -118,12 +118,13 @@
 	/* padding: 10px; */
 	padding-left: 10px;
 	padding-right: 10px;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.8s ease-in-out;
 	margin-top: 10px;
 }
 
 .social-icons i:hover {
-	transform: rotateY(180deg);
+	transform: rotateY(360deg);
+	color: rgb(136, 176, 120);
 }
 
 .social-icons a {
@@ -182,23 +183,6 @@
 		justify-content: center;
 		text-align: right;
 		opacity: 0;
-	}
-
-	.footer {
-		color: blueviolet;
-
-		margin-top: 0px;
-		position: fixed;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		color: black;
-		background-color: transparent;
-		text-align: center;
-		letter-spacing: 2px;
-		font-style: italic;
-		font-size: 18px;
-		color: blueviolet;
 	}
 }
 
