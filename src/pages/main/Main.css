@@ -183,6 +183,23 @@
 		text-align: right;
 		opacity: 0;
 	}
+
+	.footer {
+		color: blueviolet;
+
+		margin-top: 0px;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		color: black;
+		background-color: transparent;
+		text-align: center;
+		letter-spacing: 2px;
+		font-style: italic;
+		font-size: 18px;
+		color: blueviolet;
+	}
 }
 
 @media screen and (max-width: 868px) {

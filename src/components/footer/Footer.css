@@ -1,22 +1,26 @@
 .footer {
-	position: fixed;
+	position: absolute;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	color: black;
 	background-color: transparent;
 	text-align: center;
-	display: flex;
-	flex-direction: column;
-	height: 20px;
+	letter-spacing: 2px;
+	font-style: italic;
+	font-size: 18px;
 }
 
-/* body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+@media screen and (max-width: 1000px) and (min-width: 150px) {
+	.footer {
+		color: black;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background-color: transparent;
+		text-align: center;
+		letter-spacing: 2px;
+		font-style: italic;
+		font-size: 18px;
+	}
 }
-
-.main {
-	flex: 1 0 auto;
-} */
