@@ -33,6 +33,16 @@ const Navibar = () => {
 						>
 							Home
 						</Nav.Link>
+
+						<Nav className="ml-auto">
+						<Nav.Link
+							as={Link}
+							to="/projects"
+							className="nav-link"
+							// style={{ color: "black", fontWeight: "300" }}
+						>
+							Projects
+						</Nav.Link>
 						<Nav.Link
 							as={Link}
 							to="/contact"
