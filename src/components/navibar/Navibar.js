@@ -34,7 +34,6 @@ const Navibar = () => {
 							Home
 						</Nav.Link>
 
-						<Nav className="ml-auto">
 						<Nav.Link
 							as={Link}
 							to="/projects"
