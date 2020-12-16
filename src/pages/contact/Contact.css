@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
+.container {
+	height: 90vh;
+}
+
 .page-title-contact {
 	font-family: "Shrikhand", cursive;
 	text-align: center;
@@ -23,6 +27,12 @@
 	margin-bottom: 80px;
 }
 
+.title-contact {
+	text-decoration: underline;
+	text-decoration-color: orange;
+	letter-spacing: -1px;
+}
+
 .info-contact {
 	font-family: "Cabin", sans-serif;
 	text-decoration: none;
@@ -38,7 +48,7 @@
 
 @media screen and (max-width: 769px) {
 	.container {
-		height: 100vh;
+		height: 50vh;
 	}
 
 	.page-title-contact {
@@ -46,12 +56,14 @@
 		font-size: 45px;
 		letter-spacing: -4px;
 		animation: none;
+		border-right: none;
 	}
 	.info-contact {
 		font-size: 30px;
 	}
 
 	.top {
+		margin-top: 30%;
 		margin-left: 60px;
 	}
 

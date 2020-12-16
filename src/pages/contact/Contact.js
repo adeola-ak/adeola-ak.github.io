@@ -10,12 +10,12 @@ const Contact = () => {
 				</div>
 
 				<div className="top">
-					<h4>inbox</h4>
+					<h4 className="title-contact">inbox</h4>
 					<h1 className="info-contact">adeola.ak@outlook.com</h1>
 				</div>
 
 				<div className="bottom">
-					<h4>connect</h4>
+					<h4 className="title-contact">connect</h4>
 					<a
 						href="https://www.linkedin.com/in/adeola-a-b0b6b270"
 						style={{ textDecoration: "none" }}
