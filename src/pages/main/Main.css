@@ -9,6 +9,7 @@
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	height: 100vh;
 }
 
 .intro {
@@ -62,7 +63,7 @@
 }
 
 .title {
-	margin-top: 40px;
+	margin-top: 20px;
 	font-size: 65px;
 	letter-spacing: -6px;
 	color: rgb(98, 87, 85);

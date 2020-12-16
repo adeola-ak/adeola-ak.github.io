@@ -19,12 +19,12 @@
 	border-right: 0.15em solid orange; /* The typwriter cursor */
 	white-space: nowrap; /* Keeps the content on a single line */
 	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	animation: typing 7s steps(30, end), blink-caret 2s step-end infinite;
+	animation: typing 7s steps(60, end), blink-caret 2s step-end infinite;
 }
 
 .top {
-	margin-top: 190px;
-	margin-bottom: 80px;
+	margin-top: 9%;
+	margin-bottom: 7%;
 }
 
 .title-contact {
