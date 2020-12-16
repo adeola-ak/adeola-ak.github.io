@@ -146,8 +146,8 @@ const Main = () => {
 								I'd love to hear from you! I'm currently located
 								in the NY Metropolitan area and I am open to
 								opportunities in NY, NJ, and GA. Linked below
-								are my email address, resume, linkedin, and
-								github profiles.
+								are my email address, resume, LinkedIn, and
+								GitHub profiles.
 							</p>
 							<div className="social-icons">
 								{/* <a href="" target="_blank" rel="noreferrer"> */}

@@ -35,7 +35,7 @@ const Navibar = () => {
 						</Nav.Link>
 						<Nav.Link
 							as={Link}
-							to="/#contact"
+							to="/contact"
 							className="nav-link"
 
 							// style={{ color: "black", fontWeight: "300" }}
