@@ -1,5 +1,4 @@
 import React, { useState, useEffect, Fragment } from "react";
-import Navibar from "../../components/navibar/Navibar";
 import Tabletop from "tabletop";
 import "./Projects.css";
 
