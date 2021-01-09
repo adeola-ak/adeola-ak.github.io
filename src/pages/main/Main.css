@@ -47,6 +47,12 @@
 	line-height: 150%;
 	text-align: center;
 	letter-spacing: 1px;
+	/* text-shadow: 10px 10px 10px rgb(98, 87, 85); */
+	/* text-shadow: 10px 10px 10px rgb(98, 87, 85), rgb(136, 176, 120) 0px 0px 1px,
+		#fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px,
+		#fff 0px 0px 1px; */
+	text-shadow: 0px 1px 3px white;
+	-webkit-font-smoothing: antialiased;
 }
 
 .skills-list {
@@ -59,6 +65,8 @@
 	line-height: 150%;
 	text-align: center;
 	letter-spacing: 3px;
+	/* -webkit-text-stroke: 1px #f8f8f8; */
+	text-shadow: 0px 1px 3px black;
 }
 
 .title {
