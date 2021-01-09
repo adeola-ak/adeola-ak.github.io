@@ -1,4 +1,4 @@
-# adeola akinsiku
+# Adeola Akinsiku
 
 My portfolio built in React
 
