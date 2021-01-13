@@ -39,8 +39,14 @@ const Main = () => {
 					<p className="skills-list">
 						<b>SKILLFUL AREAS:</b>
 						<br></br>
-						Javascript, Ruby, CSS, React, Express, mongoDB, Rails,
-						postgreSQL
+						Javascript, Ruby, CSS, React, Express,<br></br> mongoDB,
+						Rails, postgreSQL
+						<br></br>
+						<br></br>
+						<br></br>
+						<b>CURRENTLY LEARNING:</b>
+						<br></br>
+						Redux, GraphQL, GatsbyJS
 					</p>
 				</div>
 				<div className="content-links">
