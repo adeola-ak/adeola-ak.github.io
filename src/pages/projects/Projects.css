@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 body {
 	font-family: "Raleway", sans-serif;
@@ -7,7 +8,7 @@ body {
 }
 
 .page-title {
-	font-family: "Shrikhand", cursive;
+	font-family: "Abril Fatface", cursive;
 	text-align: center;
 	font-size: 45px;
 	letter-spacing: -4px;
@@ -92,10 +93,10 @@ tablet view for project cards
 	}
 
 	.page-title {
-		font-family: "Shrikhand", cursive;
+		font-family: "Abril Fatface", cursive;
 		text-align: center;
-		font-size: 85px;
-		letter-spacing: -7px;
+		font-size: 65px;
+		letter-spacing: -5px;
 		margin-top: -5%;
 		background: -webkit-linear-gradient(
 			rgb(197, 232, 183),

@@ -72,7 +72,7 @@ const Projects = () => {
 		<Fragment>
 			{/* <Navibar /> */}
 			<div>
-				<h1 className="page-title">recent projects</h1>
+				<h1 className="page-title">RECENT PROJECTS</h1>
 			</div>
 			<div className="proj-container">{project}</div>
 		</Fragment>

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 * {
 	box-sizing: border-box;
@@ -71,10 +72,10 @@
 
 .title {
 	margin-top: 20px;
-	font-size: 65px;
+	font-size: 55px;
 	letter-spacing: -6px;
 	color: rgb(98, 87, 85);
-	font-family: "Shrikhand", cursive;
+	font-family: "Abril Fatface", cursive;
 	text-align: center;
 }
 

@@ -1,25 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 .container {
 	height: 90vh;
 }
 
 .page-title-contact {
-	font-family: "Shrikhand", cursive;
+	font-family: "Abril Fatface", cursive;
 	text-align: center;
-	font-size: 85px;
-	/* margin-top: 20%; */
+	font-size: 65px;
+	margin-top: 20%;
 	letter-spacing: -7px;
-	/* margin-top: 50px;
-	margin-bottom: 11%; */
+	margin-top: 50px;
 	background: -webkit-linear-gradient(rgb(197, 232, 183), rgb(66, 52, 62));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: 0.15em solid orange; /* The typwriter cursor */
+	border-right: 0.15em solid orange;
 	white-space: nowrap; /* Keeps the content on a single line */
 	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	animation: typing 7s steps(60, end), blink-caret 2s step-end infinite;
+	animation: typing 7s steps(30, end), blink-caret 2s step-end infinite;
 }
 
 .top {

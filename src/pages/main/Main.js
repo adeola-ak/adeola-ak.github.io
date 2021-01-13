@@ -45,7 +45,7 @@ const Main = () => {
 				</div>
 				<div className="content-links">
 					<div className="section">
-						<h3 className="title">about</h3>
+						<h3 className="title">ABOUT</h3>
 						<div className="hover-content" id="about">
 							<div className="mobile-img">
 								<img
@@ -77,7 +77,7 @@ const Main = () => {
 						</div>
 					</div>
 					<div className="section">
-						<h3 className="title">projects</h3>
+						<h3 className="title">PROJECTS</h3>
 						<Link
 							to="/projects"
 							style={{ color: "black", textDecoration: "none" }}
@@ -124,7 +124,7 @@ const Main = () => {
 					</div>
 					<div className="section">
 						<h3 className="title" id="contact">
-							contact
+							CONTACT
 						</h3>
 						<div className="hover-content">
 							<div className="mobile-img">

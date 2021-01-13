@@ -6,7 +6,7 @@ const Contact = () => {
 		<Fragment>
 			<div className="container">
 				<div>
-					<h1 className="page-title-contact">Contact</h1>
+					<h1 className="page-title-contact">CONTACT</h1>
 				</div>
 
 				<div className="top">
