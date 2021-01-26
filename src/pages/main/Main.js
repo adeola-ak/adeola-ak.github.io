@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Main.css";
 import Navibar from "../../components/navibar/Navibar";
+import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 
 const Main = () => {
 	const [copySuccess, setCopySuccess] = useState("");
@@ -28,8 +29,9 @@ const Main = () => {
 			</div>
 			<div className="grid">
 				<div className="intro">
-					<h1 className="greeting">Hello.</h1>
-
+					<Zoom>
+						<h1 className="greeting">Hello.</h1>
+					</Zoom>
 					<p className="statement">
 						I'm Adeola! A curious pioneer who <br></br>
 						enjoys turning complex problems into <br></br>
