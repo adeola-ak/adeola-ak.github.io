@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Fragment } from "react";
 import Tabletop from "tabletop";
 import "./Projects.css";
+import Slide from "react-reveal/Slide";
 
 const Projects = () => {
 	const [projects, setProjects] = useState([]);
@@ -72,7 +73,9 @@ const Projects = () => {
 		<Fragment>
 			{/* <Navibar /> */}
 			<div>
-				<h1 className="page-title">RECENT PROJECTS</h1>
+				<Slide left>
+					<h1 className="page-title">RECENT PROJECTS</h1>
+				</Slide>
 			</div>
 			<div className="proj-container">{project}</div>
 		</Fragment>

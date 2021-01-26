@@ -15,11 +15,6 @@
 	background: -webkit-linear-gradient(rgb(197, 232, 183), rgb(66, 52, 62));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: 0.15em solid orange;
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	animation: typing 7s steps(60, end), blink-caret 2s step-end infinite;
 }
 
 .top {

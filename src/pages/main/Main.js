@@ -31,7 +31,7 @@ const Main = () => {
 					<h1 className="greeting">Hello.</h1>
 
 					<p className="statement">
-						I'm Adeola Akinsiku! A curious pioneer who <br></br>
+						I'm Adeola! A curious pioneer who <br></br>
 						enjoys turning complex problems into <br></br>
 						beautiful, unique, and intuitive software.
 					</p>
