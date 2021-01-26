@@ -100,7 +100,6 @@ const Main = () => {
 									</div>
 								</div>
 								<p className="section-text">
-									{" "}
 									I enjoy building user-centered applications
 									and hyper focusing on great product
 									experiences. Take a look
@@ -112,7 +111,6 @@ const Main = () => {
 										}}
 									>
 										<span id="here-link">
-											{" "}
 											<i> here </i>
 										</span>
 									</Link>
