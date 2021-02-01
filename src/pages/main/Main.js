@@ -143,11 +143,11 @@ const Main = () => {
 								</div>
 							</div>
 							<p className="section-text">
-								I'd love to hear from you! I'm currently located
-								in the NY Metropolitan area and I am open to
-								opportunities in NY, NJ, and GA. Linked below
-								are my email address, resume, LinkedIn, and
-								GitHub profiles.
+								I'd love to hear from you! I am located in the
+								state of Georgia and I am open to both remote
+								and non-remote opportunities. Linked below are
+								my email address, resume, LinkedIn, and GitHub
+								profiles.
 							</p>
 							<div className="social-icons">
 								{/* <a href="" target="_blank" rel="noreferrer"> */}
